@@ -1,0 +1,47 @@
+
+.footer-logo{
+    width: 75px;
+    height: 50px;
+}
+
+footer h6{
+    color: var(--red);
+    
+}
+
+.footer-link:hover{
+    color: var(--text-color) !important;
+    text-shadow: 0px 9px 7px var(--text-color) !important;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+p.s4{
+    width: 167px !important
+}
+
+@media only screen and (min-width:768px) and (max-width:1199px) {
+
+    p.s1{
+        width: 133px !important;
+    }
+    p.s2{
+        width: 141px !important;
+    }
+    p.s3{
+        width: 151px !important;
+    }
+    p.s4{
+        width: 168px !important
+    }
+
+}
+
+@media only screen and (min-width:500px) and (max-width:768px) {
+
+    p.s4{
+        width: 460px !important
+    }
+
+}

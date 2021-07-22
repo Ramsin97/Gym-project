@@ -1,0 +1,88 @@
+
+.contact{
+    margin: 180px 0 0 0;
+}
+
+
+
+
+
+
+
+
+h1{
+    text-shadow: 9px 12px 5px #CE5937;
+}
+
+
+
+
+.contact-cards{
+    width: 280px;
+    padding: 10px;
+    color: #fff;
+    margin: auto;
+}
+
+.contact-cards:hover{
+    transform: none;
+}
+
+.crd-flex{
+    display: flex;
+}
+
+
+/*facebook*/
+.fb-card{
+    background-color:  rgb(102, 132, 205);
+}
+.fb-btn{
+    background-color: rgb(114, 140, 204);
+    border: none;
+}
+.fb-btn:hover{
+    background-color: #fff;
+    color: rgb(102, 132, 205);
+}
+
+/*snapchat*/
+.snap-card{
+    color: #000;
+    background-color:  rgb(255, 252, 1);
+}
+.snap-btn{
+    background-color: rgb(255, 253, 131);
+    color: #000;
+    border: none;
+}
+.snap-btn:hover{
+    background-color: #000;
+    color: rgb(255, 252, 1);
+}
+
+/*instagram*/
+.insta-card{
+    background-color:  rgb(193, 0, 202);
+}
+.insta-btn{
+    background-color: rgb(229, 18, 240);
+    border: none;
+}
+.insta-btn:hover{
+    background-color: #fff;
+    color: rgb(193, 0, 202);
+}
+
+/*whats*/
+.whats-card{
+    background-color:  rgb(33, 160, 19);
+}
+.whats-btn{
+    background-color: rgb(64, 211, 48);
+    border: none;
+}
+.whats-btn:hover{
+    background-color: #fff;
+    color: rgb(33, 160, 19);
+}

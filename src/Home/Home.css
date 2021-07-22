@@ -1,0 +1,109 @@
+
+
+.home{
+    margin: 180px 0 0 0;
+}
+
+
+
+h1{
+    color: #000;
+    font-weight: bold;
+}
+h3{
+    color: #ff0c0c;
+    font-weight: bold;
+}
+
+
+
+/*collapse*/
+.card-header{
+    display: flex;
+    background-color: var(--red);
+}
+
+.card-header img{
+    width: 50px;
+    height: 50px;
+}
+
+#accordion button{
+
+    background-color: var(--red);
+    color: var(--text-color) !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 12px;
+}
+
+
+
+.card-body button.btn1,.card-body button.btn2,.card-body button.btn3,.card-body button.btn4{
+    color: var(--text-color) !important;
+
+}
+
+
+
+
+.fp{
+    color: #fe019a !important;
+}
+.fpr{
+    color: #fe019a !important;
+}
+
+
+/*modal*/
+.modal-content {
+    width: 70%;
+    left: 13%;
+}
+@media only screen and (min-width:500px) and (max-width:768px){
+    .modal-content {
+        width: 70%;
+        left: 18%;
+    }
+
+    iframe{
+        width: 100% !important;
+    }
+
+}
+
+@media only screen and (min-width:500px) and (max-width:768px){
+
+    h1,h3{
+        display: block;
+        margin: auto;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    .card-body button.btn1{
+        position: relative;
+        left: 75px;
+    }
+    .card-body button.btn2{
+        position: relative;
+        left: 100px;
+    }
+    .card-body button.btn3{
+        position: relative;
+        left: 35px;
+        top: 8px;
+    }
+    .card-body button.btn4{
+        position: relative;
+        top: 5px;
+        left: 20px;
+    }
+    .card-body button.btn5{
+        position: relative;
+        left: 80px;
+    }
+
+
+}

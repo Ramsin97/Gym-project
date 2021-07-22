@@ -1,0 +1,88 @@
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: #ff0c0c;
+
+}
+.carousel-caption {
+    position: absolute;
+    bottom: 30%;
+}
+
+.carousel-item img {
+    width: 100% ;
+    height: 600px;
+}
+
+.carousel-indicators [data-mdb-target]{
+    height: 7px;
+    
+}
+
+.carousel-inner{
+    height: 600px !important;
+}
+
+.carousel-caption h5{
+    color: #ff0c0c;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.header-btn{
+    background: #ff002b;
+    background-image: -webkit-linear-gradient(top, #ff002b, #000000);
+    background-image: -moz-linear-gradient(top, #ff002b, #000000);
+    background-image: -ms-linear-gradient(top, #ff002b, #000000);
+    background-image: -o-linear-gradient(top, #ff002b, #000000);
+    background-image: linear-gradient(to bottom, #ff002b, #000000);
+    border: none;
+    -webkit-border-radius: 39;
+    -moz-border-radius: 39;
+    border-radius: 39px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 50px 10px 50px;
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+.header-btn:hover{
+    background: #000000;
+    background-image: -webkit-linear-gradient(top, #000000, #ff0000);
+    background-image: -moz-linear-gradient(top, #000000, #ff0000);
+    background-image: -ms-linear-gradient(top, #000000, #ff0000);
+    background-image: -o-linear-gradient(top, #000000, #ff0000);
+    background-image: linear-gradient(to bottom, #000000, #ff0000);
+    text-decoration: none;
+}
+
+/*small*/
+@media only screen and (min-width:500px) and (max-width:768px) {
+
+    .carousel-caption {
+        display: block !important;
+        position: absolute;
+        bottom: 30%;
+    }
+
+}
+/*medium*/
+@media only screen and (min-width:768px) and (max-width:992px) {
+
+    .carousel-caption {
+        position: absolute;
+        bottom: 25%;
+    }
+
+}
+/*large*/
+@media only screen and (min-width:992px) and (max-width:1535px) {
+
+    .carousel-caption {
+        position: absolute;
+        bottom: 25%;
+    }
+
+}

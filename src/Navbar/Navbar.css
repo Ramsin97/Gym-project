@@ -1,0 +1,33 @@
+/*navbar img brand*/
+.navbar-brand img{
+    width: 80px;
+    height: 45px;
+}
+
+/*navbar links settings*/
+a.nav-link{
+    text-transform: uppercase;
+    color: var(--red) !important;
+    font-weight: bold;
+}
+
+a.nav-link:hover{
+    font-weight: bold;
+    color: var(--text-color) !important;
+}
+
+a.active{
+    font-weight: bold;
+    box-shadow: 0px 5px 0px -3px var(--red);
+
+}
+
+.nav-item{
+    padding: 5px 10px;
+}
+
+
+.navbar-toggler-icon {
+    color: var(--text-color);
+    border-color: rgba(0,0,0,.1);
+}
